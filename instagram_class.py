@@ -3,7 +3,7 @@ from datetime import datetime
 
 class InstagramApi:
     """
-    created with <3 by corrykalam
+    created with <3 by corrykalam love u
     """
     def __init__(self, username=None, password=None, session={}):
         self.username = username
@@ -41,7 +41,7 @@ class InstagramApi:
         headers = {
             'Host': 'www.instagram.com',
             'x-csrftoken': csrf,
-            'user-agent': 'Mozilla/5.0 (Linux; Android 9; LM-G710 Build/PKQ1.181105.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.149 Mobile Safari/537.36',
+            'user-agent': 'Mozilla/5.0 (Linux; Android 9; LM-G710 Build/PKQ1.181105.001; wv) AppleWebKit/538.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.149 Mobile Safari/537.36',
             'cookie': 'rur=FTW; mid='+mid+'; csrftoken='+csrf,
         }
         data = {
